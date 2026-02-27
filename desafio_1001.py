@@ -11,19 +11,12 @@ você receberá "Presentation Error".
 
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
-# Escreva sua solução abaixo
-# Lê as duas notas como ponto flutuante (double precision)
-A = float(input())
-B = float(input())
+# Lê os dois valores inteiros
+A = int(input())
+B = int(input())
 
-# Pesos: A = 3.5, B = 7.5
-# Soma dos pesos = 3.5 + 7.5 = 11.0
-peso_A = 3.5
-peso_B = 7.5
+# Efetua a soma
+X = A + B
 
-# Cálculo da média ponderada
-media = (A * peso_A + B * peso_B) / 11.0
-
-# Imprime "MEDIA =" com 5 casas decimais
-print(f"MEDIA = {media:.5f}")
-
+# Imprime o resultado no formato exato: X = [resultado]
+print(f"X = {X}")
